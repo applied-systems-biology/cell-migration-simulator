@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<outputSettings>
+    <runname type="string" unit="none" value="test distance weighting">
+    </runname> 
+    <outpath type="string" unit="none" value="results/">
+    </outpath> 
+    <intervall type="int" unit="none" value="50">
+    </intervall> 
+</outputSettings>
+<modelSettings>
+    <space type="float" unit="µm" value="40" comment="length of environemnt">
+    </space>
+    <n_c type="int" unit="µm" value="1" comment="number of cells">
+    </n_c>
+    <size_c type="float" unit="µm" value="6" comment="size (radius) of cells">
+    </size_c>
+    <resolution type="float" unit="µm/pxl" value="0.5" comment="resolution as mym per mixel">
+    </resolution>
+    <blebs type="bool" unit="none" value="1" comment="is the mode working with blebs or not">
+    </blebs>
+    <b_range type="float" unit="µm" value="2" comment="radius of a bleb">
+    </b_range>
+    <pos_weight type="float" unit="none" value="6" comment="weighting of position factor">
+    </pos_weight>
+    <neighbour_weight type="float" unit="none" value="2" comment="weighting of neighbour factor">
+    </neighbour_weight>
+    <distance_weight type="float" unit="none" value="1" comment="weighting of distance of back pixel">
+    </distance_weight>
+    <iteration_limit type="int" unit="none" value="2" comment="number of iterations to do for the model">
+    </iteration_limit>
+    <frontback type="float" unit="none" value="0.0" comment="fb determines the edge between cell front and cell tail, value represents the orthogonality ">
+    </frontback>
+    <tissue type="string" unit="none" value="spheres" comment="3 options: tubule: tunnel, spheres: random positiones spheres, other: nothing">
+    </tissue>
+</modelSettings>
